@@ -1,0 +1,311 @@
+{
+  "id": 610812,
+  "num_rows": 100,
+  "file_format": "csv",
+  "name": "PhotostockDatabase",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 999999999,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "photo_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 99999,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Beautiful sunset view",
+        "Majestic mountain landscape",
+        "Colorful city skyline",
+        "Enchanting forest scenery",
+        "Serene lake reflection",
+        "Vibrant flower garden",
+        "Peaceful countryside panorama",
+        "Urban street art display",
+        "Historic architecture detail",
+        "Exotic tropical paradise",
+        "Charming village scene",
+        "Dramatic waterfall cascade",
+        "Spectacular starry night sky",
+        "Whimsical fairytale setting",
+        "Tranquil river flow",
+        "Epic ocean waves",
+        "Magical winter wonderland",
+        "Lush green meadow",
+        "Industrial cityscape",
+        "Ancient ruins exploration"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "description",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Beautiful landscape with mountains in the background",
+        "Close-up of a flower in bloom",
+        "Abstract art with vibrant colors",
+        "Black and white portrait of a person"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "dateAndTime",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "4/7/2023",
+      "max": "4/7/2023",
+      "format": "mongo::iso",
+      "formula": null
+    },
+    {
+      "name": "gps.longitude",
+      "null_percentage": 0,
+      "type": "Longitude",
+      "formula": null
+    },
+    {
+      "name": "gps.latitude",
+      "null_percentage": 0,
+      "type": "Latitude",
+      "formula": null
+    },
+    {
+      "name": "dimensions.width",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 800,
+      "max": 2560,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "dimensions.height",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 600,
+      "max": 1440,
+      "decimals": 2,
+      "formula": null
+    },
+    {
+      "name": "size",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 50,
+      "decimals": 2,
+      "formula": null
+    },
+    {
+      "name": "tags.tag_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 10,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "tags.tagName",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Scenery",
+        "Nature",
+        "Portrait",
+        "Abstract",
+        "Macro",
+        "Black and White",
+        "Street Photography",
+        "Architecture",
+        "Food",
+        "Travel",
+        "Fashion",
+        "Wildlife",
+        "Sports",
+        "Event",
+        "Family",
+        "Pets",
+        "Astrophotography",
+        "Fine Art",
+        "Still Life",
+        "Wedding",
+        "Documentary",
+        "Concert",
+        "Landscape",
+        "Cityscape",
+        "Night Photography",
+        "Underwater",
+        "Experimental",
+        "Mobile Photography",
+        "Film Photography",
+        "Drone Photography"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "timePosts.timePosting",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "01/01/2023",
+      "max": "07/10/2024",
+      "format": "mongo::iso",
+      "formula": null
+    },
+    {
+      "name": "camera.cameraId",
+      "null_percentage": 0,
+      "type": "Regular Expression",
+      "value": "CAM\\d{4}",
+      "formula": null
+    },
+    {
+      "name": "camera.cameraName",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Canon EOS 5D",
+        "Nikon D850",
+        "Sony Alpha A7 III",
+        "Fujifilm X-T3",
+        "Olympus OM-D E-M1 Mark II",
+        "Panasonic Lumix GH5",
+        "Leica Q2",
+        "Pentax K-1 Mark II",
+        "Hasselblad X1D II 50C",
+        "Phase One XF IQ4 150MP",
+        "GoPro Hero 8 Black",
+        "DJI Osmo Action",
+        "Ricoh Theta Z1",
+        "Insta360 One X",
+        "Blackmagic Pocket Cinema Camera 6K"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "camera.lens",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Canon EF 50mm f/1.8",
+        "Nikon AF-S 24-70mm f/2.8",
+        "Sony FE 85mm f/1.8",
+        "Tamron 70-200mm f/2.8",
+        "Sigma 35mm f/1.4"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "artist.artist_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 99999,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "artist.artistName",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    },
+    {
+      "name": "artist.contactEmail",
+      "null_percentage": 0,
+      "type": "Email Address",
+      "formula": null
+    },
+    {
+      "name": "artist.photoNum",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "###-###-####",
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.account_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 9999,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.socialMediaAccountId",
+      "null_percentage": 0,
+      "type": "Username",
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.photostockWebsiteId",
+      "null_percentage": 0,
+      "type": "Username",
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.authentication.authentication_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 9999,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.authentication.authenticationPlatform",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Facebook",
+        "Twitter",
+        "Instagram",
+        "Unsplash",
+        "Pinterest",
+        "Getty Image"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.authentication.authenticationToken",
+      "null_percentage": 0,
+      "type": "Regular Expression",
+      "value": "[A-Za-z0-9]{10}",
+      "formula": null
+    },
+    {
+      "name": "artist.artistAccount.authentication.authenticationStatus",
+      "null_percentage": 0,
+      "type": "Boolean",
+      "formula": null
+    }
+  ]
+}

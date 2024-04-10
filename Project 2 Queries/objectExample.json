@@ -1,0 +1,48 @@
+{
+  "photo_id": 95094,
+  "name": "Tranquil river flow",
+  "description": "Abstract art with vibrant colors",
+  "dateAndTime": {
+    "$date": "2023-04-07T00:00:00.000Z"
+  },
+  "gps": {
+    "longitude": -5.2697497,
+    "latitude": 34.6756374
+  },
+  "dimensions": {
+    "width": 1596,
+    "height": 1246.98
+  },
+  "size": 45.64,
+  "tags": {
+    "tag_id": 0,
+    "tagName": "Scenery"
+  },
+  "timePosts": {
+    "timePosting": {
+      "$date": "2024-06-07T00:55:44.000Z"
+    }
+  },
+  "camera": {
+    "cameraId": "CAM3429",
+    "cameraName": "Blackmagic Pocket Cinema Camera 6K",
+    "lens": "Sigma 35mm f/1.4"
+  },
+  "artist": {
+    "artist_id": 73628,
+    "artistName": "Alonso Candlish",
+    "contactEmail": "acandlish0@usatoday.com",
+    "photoNum": "919-193-1812",
+    "artistAccount": {
+      "account_id": 9705,
+      "socialMediaAccountId": "acandlish0",
+      "photostockWebsiteId": "acandlish0",
+      "authentication": {
+        "authentication_id": 7893,
+        "authenticationPlatform": "Instagram",
+        "authenticationToken": "2u5QW935Hz",
+        "authenticationStatus": true
+      }
+    }
+  }
+}
